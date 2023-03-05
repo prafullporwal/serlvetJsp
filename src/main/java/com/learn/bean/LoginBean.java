@@ -19,7 +19,7 @@ public class LoginBean {
 	
 	public boolean validate()
 	{
-		
+		System.out.println("Validating");
 		return passWord==null?false:this.passWord.equals("pass");
 	}
 }
